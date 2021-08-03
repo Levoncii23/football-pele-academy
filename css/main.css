@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 1166px;
+    margin: 0 auto;
+}
+
+.nav {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.nav p {
+    width: 116px;
+    padding-left: 6px;
+
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.menu a {
+    padding-right: 80px;
+}
+
+.menu a:last-child{
+    padding-right: 0px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 47px;
+}
+
+.leftsec {
+    padding-top: 86px;
+    width: 586px;
+}
+
+.leftsec h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.leftsec h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 51px;
+}
+
+.leftsec .btn {
+    margin: 0 auto;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 59px;
+    background: #319233;
+}
+
+.btn a {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.header {
+    background-image: url('/img/bg2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+}
